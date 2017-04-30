@@ -34,4 +34,38 @@ Fell | Found
 1107 | 44609
 
 #### Weighth of Meteorite
+summary(Meteorite$mass)
+
+Min. | 1st Qu. | Median | Mean | 3rd Qu. | Max. | NA's
+--- | --- | --- | --- | --- | --- | --- 
+0 | 7 | 33 | 13280 | 203 | 60000000 | 131
+
+Since the range of mass is too large, transfer mass to log10 level for plot drawing 
+
+**Density Plot of Mass**
+![mass-fall](https://github.com/Guangtufan/Meteorite/blob/master/mass-fall.png)
+![mass-nametype](https://github.com/Guangtufan/Meteorite/blob/master/mass-nametype.png)
+
+### Distribution of Meteorite Location
+
+**General Distribution Map**
+
+![general-location](https://raw.githubusercontent.com/Guangtufan/Meteorite/master/location.png)
+
+**Distribution Map 0f 21st Century**  
+![location-21](https://github.com/Guangtufan/Meteorite/blob/master/m21.png)
+
+**Distribution Map 0f 20th Century**
+![location-20](https://github.com/Guangtufan/Meteorite/blob/master/m20.png)
+
+**Distribution Map 0f 19th Century and Before**  
+![location-19](https://github.com/Guangtufan/Meteorite/blob/master/m-19.png)
+
+**Distribution of Meteorite Location and Mass**
+![loc-mass](https://raw.githubusercontent.com/Guangtufan/Meteorite/master/location-mass-fall.png)
+
+
+
+
+
 
