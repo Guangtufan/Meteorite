@@ -20,9 +20,9 @@ $ GeoLocation: Factor w/ 17101 levels "","(-1.002780, 37.150280)",..: 16779 1698
 #### Amount of two types of Meteorit
 * _valid_: a typical meteorite
 * _relict_: a meteorite that has been highly degraded by weather on Earth  
-
+```R
 table(meteorite$nametype)   
-
+```
 Relict | Valid 
 --- | --- 
 75 | 45641 
@@ -30,16 +30,17 @@ Relict | Valid
 #### Amount of two types of Observation  
 * _Fell_: the meteorite's fall was observed
 * _Found_: the meteorite's fall was not observed
-
+```R
 table(meteorite$fall)
-
+```
 Fell | Found
 --- | --- 
 1107 | 44609
 
 #### Weighth of Meteorite
+```R
 summary(Meteorite$mass)
-
+```
 Min. | 1st Qu. | Median | Mean | 3rd Qu. | Max. | NA's
 --- | --- | --- | --- | --- | --- | --- 
 0 | 7 | 33 | 13280 | 203 | 60000000 | 131
